@@ -1,1 +1,2 @@
-[{"author":"Samuel Beckett","title":"Molloy, Malone Dies, The Unnamable, the trilogy","reviews":{}}]
+curl -X GET " http://localhost:5000/title/Things%20Fall%20Apart" > getbooksbytitle
+[{"author":"Chinua Achebe","title":"Things Fall Apart","reviews":{}}]

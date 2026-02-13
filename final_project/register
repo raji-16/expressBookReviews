@@ -1,1 +1,4 @@
-{"message":"Username already exists"}
+curl -X POST  http://localhost:5000/register \
+-H "Content-Type: application/json" \
+-d "{\"username\":\"raji1\",\"password\":\"password123\"}" > register
+{"message":"User registered successfully"}

@@ -1,1 +1,5 @@
-{ message: "Review added/updated", reviews: "Great book" }
+curl -X PUT  http://localhost:5000/customer/review/1 \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhamkxIiwiaWF0IjoxNzcwNzI0NTI4LCJleHAiOjE3NzA3MjgxMjh9.EUQziIGqAW2LeKVTDDDFSxruFTO8DxjgvF3bXzaS6iw" \
+-d "{\"review\":\"Excellent book\"}" > reviewadded
+{ message: "Review added/updated", reviews: "Excellent book" }

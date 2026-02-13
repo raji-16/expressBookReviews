@@ -76,7 +76,7 @@ regd_users.put("/review/:isbn", (req, res) => {
   });
 
 // Delete a book review
-regd_users.delete("/auth/review/:isbn", (req, res) => {
+regd_users.delete("/review/:isbn", (req, res) => {
   const { isbn } = req.params;
   const authHeader = req.headers.authorization;
 

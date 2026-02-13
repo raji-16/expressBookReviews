@@ -1,0 +1,5 @@
+curl -X DELETE http://localhost:5000/customer/review/1 \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhamkxIiwiaWF0IjoxNzcwOTc3MjQxLCJleHAiOjE3NzA5ODA4NDF9.zII0tm6LzD-G0V5b5gJI97a8Xm9Xx0J_8wo_wUVIDRY" \
+  > deletereview
+{ message: "Review deleted", reviews: "Excellent book" }

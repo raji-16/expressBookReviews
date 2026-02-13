@@ -1,1 +1,2 @@
+curl -X GET " http://localhost:5000/author/Chinua%20Achebe" > getbooksbyauthor
 [{"author":"Jane Austen","title":"Pride and Prejudice","reviews":{}}]
